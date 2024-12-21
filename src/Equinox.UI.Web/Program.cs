@@ -26,11 +26,12 @@ else
        .UseHsts();
 }
 
+app.MapStaticAssets();
+
 app.UseHttpsRedirection()
-   .UseStaticFiles()
-   .UseRouting()
-   .UseAuthentication()
-   .UseAuthorization();
+    .UseRouting()
+    .UseAuthentication()
+    .UseAuthorization();
 
 app.MapControllerRoute(name: "default",pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();

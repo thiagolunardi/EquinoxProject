@@ -28,11 +28,11 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 
 ## Technologies implemented:
 
-- ASP.NET 8.0
+- ASP.NET 9.0
  - ASP.NET MVC Core 
  - ASP.NET WebApi Core with JWT Bearer Authentication
  - ASP.NET Identity Core
-- Entity Framework Core 8.0
+- Entity Framework Core 9.0
 - .NET Core Native DI
 - AutoMapper
 - FluentValidator
@@ -53,6 +53,12 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Repository
 
 ## News
+
+**v1.10 - 12/21/2024**
+- Migrated for .NET 9.0
+- Full refactoring of Web and Api configuration
+- Now all ASP.NET Identity configurations are inside the project, without external dependencies
+- All dependencies is up to date
 
 **v1.9 - 06/31/2024**
 - Migrated for .NET 8.0
